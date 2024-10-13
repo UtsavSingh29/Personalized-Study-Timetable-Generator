@@ -52,16 +52,14 @@ The **Personalized Study Timetable Generator** is a Java-based desktop applicati
    ```bash
    git clone https://github.com/your-username/StudyPlanner.git
    cd StudyPlanner
-```
+    ```
 
-5. Run the Project:
+5. **Run the Project**:
 In VS Code, open the project folder, press F5 or click the Run button to start the application.
 
-Setup on Linux (Ubuntu)
+## Setup on Linux (Ubuntu)
 
 Install JDK:
-
-Copy code
 ```
 sudo apt update
 sudo apt install openjdk-17-jdk
@@ -72,18 +70,15 @@ Configure JavaFX in VS Code:
 
 Download and extract the JavaFX SDK as described above.
 Set the path to your JavaFX SDK in VS Code:
-Open File > Preferences > Settings, search for javafx.lib.path, and set it to the path where you extracted the JavaFX SDK:
-
-Copy code
-"javafx.lib.path": "/path_to_javafx/lib"
+Open File > Preferences > Settings, search for javafx.lib.path, and set it to the path where you extracted the JavaFX SDK:"javafx.lib.path": "/path_to_javafx/lib"
 
 Clone the Repository:
-Copy code
 ```
 git clone https://github.com/your-username/StudyPlanner.git
 ```
 cd StudyPlanner
-Run the Project:
+
+# Run the Project:
 
 Open the project in VS Code, and press F5 or click the Run button to start the application.
 
@@ -96,8 +91,7 @@ Deadline: The deadline for the task (in yyyy-MM-ddThh:mm format).
 Priority: The importance of the task on a scale from 1 to 3 (1 being the highest).
 After adding tasks, click Generate Timetable to create a study plan based on the available time and task deadlines
 
-
-Project Structure
+# Project Structure
 ```
 /StudyPlanner
     /src
