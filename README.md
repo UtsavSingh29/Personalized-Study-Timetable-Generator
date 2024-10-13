@@ -86,9 +86,13 @@ Open the project in VS Code, and press F5 or click the Run button to start the a
 Upon launching, you'll be presented with a window where you can input:
 
 Course Name: The course you are studying.
+
 Task Name: The task to be completed (e.g., assignment, exam preparation).
+
 Deadline: The deadline for the task (in yyyy-MM-ddThh:mm format).
+
 Priority: The importance of the task on a scale from 1 to 3 (1 being the highest).
+
 After adding tasks, click Generate Timetable to create a study plan based on the available time and task deadlines
 
 # Project Structure
@@ -108,8 +112,8 @@ After adding tasks, click Generate Timetable to create a study plan based on the
     launch.json                       # VS Code launch configuration for JavaFX
     settings.json                     # VS Code settings for JavaFX
 ```
-Contribution
+# Contribution
 Feel free to fork this repository and contribute to the project by opening pull requests. Suggestions and feature requests are also welcome!
 
-License
+# License
 This project is licensed under the MIT License.
